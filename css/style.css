@@ -42,3 +42,21 @@ a:hover {
 a:active {
     color: black;
 }
+header {
+ background-color: transparent;
+}
+nav {
+    background-color: blanchedalmond;
+    width: 10%;
+    margin-top: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 130%;
+    padding: 0px;
+    border-radius: 15px;
+    border-style: solid;
+    border
+}
+nav:hover {
+    padding: 10px;
+}

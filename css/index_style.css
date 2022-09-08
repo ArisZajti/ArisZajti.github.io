@@ -13,9 +13,17 @@ h1 {
     margin-top: 40px;
     margin-bottom: auto;
     border-style: solid;
-
+    display: block;
+    border-radius: 25px;
 
 }
+.button {
+    padding: 0px;
+}
+.button:hover {
+    padding: 5px;
+}
+
 
 body {
     background-image: url(/images/background_image.jpg);
