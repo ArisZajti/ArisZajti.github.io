@@ -21,7 +21,8 @@ h1 {
     padding: 0px;
 }
 .button:hover {
-    padding: 5px;
+    padding: 5px; 
+    transition:10s;
 }
 
 

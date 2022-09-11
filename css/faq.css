@@ -1,0 +1,23 @@
+
+li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+}
+ol {
+    border-style: dotted;
+    border-radius: 20px;
+    background-color: blanchedalmond;
+    margin-right: 200px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 200px;
+    text-align: center;
+   
+}
+hr {
+    color: black;
+   padding: 1px;
+   background-color: black;
+   margin-right: 20px;
+}
