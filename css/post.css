@@ -1,0 +1,19 @@
+article{
+    border: 2px solid black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: blanchedalmond;
+    border-radius: 25px;
+    text-align: center;
+  
+}
+hr {
+    color: black;
+    border-color: black;
+    background-color: black;
+}
+.feedback {
+    text-align: left;
+}

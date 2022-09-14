@@ -1,0 +1,13 @@
+section{
+    border: 2px solid black;
+    border-radius: 25px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left: 300px;
+    margin-right: 300px;
+    display: block;
+    background-color: blanchedalmond;
+}
+section:hover{
+    padding: 5px;
+}
