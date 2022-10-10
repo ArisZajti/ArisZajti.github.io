@@ -1,4 +1,4 @@
-article{
+article {
     border: 2px solid black;
     margin-top: auto;
     margin-bottom: auto;
@@ -7,13 +7,15 @@ article{
     background-color: blanchedalmond;
     border-radius: 25px;
     text-align: center;
-  
+
 }
+
 hr {
     color: black;
     border-color: black;
     background-color: black;
 }
+
 .feedback {
     text-align: left;
 }

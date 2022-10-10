@@ -31,6 +31,8 @@ h1 {
 .me {
     width: 200px;
     height: 250px;
+    border-style: solid;
+    margin-top: 3px;
 }
 
 .img {
@@ -40,6 +42,7 @@ h1 {
 
 a:hover {
     color: gold;
+    transition: all 0.5s ease-in-out;
 }
 
 a:active {
@@ -50,18 +53,25 @@ header {
     background-color: transparent;
     display: block;
 }
-
+nav{
+    transition: all 0.5s ease-in-out;
+}
 nav:hover {
     padding: 10px;
-    transition: 0.5s;
+    transition: all 0.5s ease-in-out;
 }
 
-nav:active {
+#active {
     padding: 15px;
     color: brown;
 }
 
-.index, .profile, .dash, .faq, .blog {
+.index,
+.profile,
+.dash,
+.faq,
+.blog {
+    text-decoration: none;
     display: inline;
     text-align: center;
     margin-left: auto;
@@ -70,18 +80,36 @@ nav:active {
     background-color: blanchedalmond;
     border-style: solid;
     border-radius: 15px;
+    transition: all 0.5s ease-in-out;
 }
 
 .bear {
     border: 2px solid black;
     border-radius: 15px;
 }
+
+.prior,
+.personal,
+.study {
+background-image: linear-gradient(blanchedalmond,blanchedalmond, transparent);
+border-style:solid;
+border-radius: 25px;
+text-align: center;
+margin-left: 300px;
+margin-right: 300px;
+margin-top: 2px;
+padding-top: 2px;
+}
+
 footer {
     text-align: left;
     bottom: 10px;
 }
+
 .hz {
-        display: block;
-        width: 200px;
-        height: 100;
+    display: block;
+    width: 200px;
+    height: 100;
+    border-style: solid;
+    border-radius: 15px;
 }

@@ -1,4 +1,4 @@
-section{
+section {
     border: 2px solid black;
     border-radius: 25px;
     text-align: center;
@@ -7,7 +7,11 @@ section{
     margin-right: 300px;
     display: block;
     background-color: blanchedalmond;
+    transition: all 0.5s ease-in-out;
 }
-section:hover{
+
+section:hover {
     padding: 5px;
+    transition: all 0.3s ease-out;
+
 }
