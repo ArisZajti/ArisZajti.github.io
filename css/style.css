@@ -28,7 +28,7 @@ h1 {
     list-style-position: inside;
 }
 
-.me {
+.me {/* Images form the profile.html*/
     width: 200px;
     height: 250px;
     border-style: solid;
@@ -38,6 +38,11 @@ h1 {
 .img {
     margin-left: auto;
     margin-right: auto;
+}
+
+.bear {
+    border: 2px solid black;
+    border-radius: 15px;
 }
 
 a:hover {
@@ -53,6 +58,7 @@ header {
     background-color: transparent;
     display: block;
 }
+/* Start of navigation bar*/
 nav{
     transition: all 0.5s ease-in-out;
 }
@@ -82,13 +88,10 @@ nav:hover {
     border-radius: 15px;
     transition: all 0.5s ease-in-out;
 }
+/* End of navigation bar */
 
-.bear {
-    border: 2px solid black;
-    border-radius: 15px;
-}
 
-.prior,
+.prior, /*This is for the profile.html */
 .personal,
 .study {
 background-image: linear-gradient(blanchedalmond,blanchedalmond, transparent);
