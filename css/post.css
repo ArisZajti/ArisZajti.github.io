@@ -4,7 +4,7 @@ article {
     margin-bottom: auto;
     margin-left: 300px;
     margin-right: 300px;
-    background-color: blanchedalmond;
+    background-image: linear-gradient(blanchedalmond,blanchedalmond, transparent);
     border-radius: 25px;
     text-align: center;
 
